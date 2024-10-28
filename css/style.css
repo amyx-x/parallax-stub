@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+.p-imgs{
+    /* set up flex to centre child content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* set up background image properties */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#p1{
+    height: 100vh;
+    background-image: url(../images/beach.jpg);
+}
+#p2{
+    height: 500px;
+    background-image: url(../images/elm-hill.jpg);
+}
+#p3{
+    height: 600px;
+    background-image: url(../images/market.jpg);
+}
+#p4{
+    height: 100vh;
+    background-image: url(../images/river.jpg);
+}
+.section-title, .section-text, .p-text{
+    font-family: monospace;
+}
+.section-title{
+    font-size: 3rem;
+    font-weight: 200;
+    text-align: center;
+}
+.section-text{
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: justify;
+}
+.section{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    background-color: rgb(234, 209, 165);
+}
+.p-text{
+    color: rgb(234, 209, 165);
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 100;
+}
+.p-text-container{
+    background-color: rgb(37, 37, 36);
+    padding-left: 20px;
+    padding-right: 20px;
+}
